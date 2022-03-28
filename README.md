@@ -1,3 +1,2 @@
 # MortalKombatJS
-
-[Lien](https://www.youtube.com/watch?v=vyqbNFMDRGQ) du tuto pour refaire le jeu en JS 
+This project is a Mortal Kombat style game, full in HTML and native JavaScript
