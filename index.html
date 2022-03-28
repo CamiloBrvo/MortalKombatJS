@@ -1,3 +1,27 @@
-<canvas></canvas>
+<link rel="stylesheet" href="style.css">
 
-<script src="index.js"></script>
+<body>
+    <div class="red-container-div">
+        <div class="smaller-red-container-div">
+            <div class="health-div player-health">
+                <div class="health">
+                    <div id="playerHealth" class="player-health-2"></div>
+                </div>
+            </div>
+            <div id="timer" class="timer">10</div>
+            <div class="health-div">
+                <div class="health">
+                    <div id="enemyHealth" class="enemy-health-2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="displayText" class="tie">Tie</div>
+        <canvas></canvas>
+    </div>
+
+    Player controls : left => Q, right => D, top => Z, hit => Space.
+    <br>
+    Enemy controls : left => ArrowLeft, right => ArrowRight, top => ArrowTop, hit => ArrowDown.
+
+    <script src="index.js"></script>
+</body>
